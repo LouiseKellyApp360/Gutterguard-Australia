@@ -1,0 +1,125 @@
+.customersReviews {
+  padding: 64px;
+  background-color: #e8ede5;
+}
+
+.reviewHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #203e28;
+  margin: 0;
+}
+
+.customerFeedbackHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.reviewCard img {
+  margin: 16px 0px;
+}
+
+.review {
+  max-width: 700px;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #203e28;
+  margin: 0;
+}
+
+.review1 {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.reviewGivenBy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #203e28;
+  margin: 16px 0px 0px;
+}
+
+.reviewGivenBy1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin: 16px 0px 16px;
+}
+
+.customerFeedback {
+  padding: 64px 80px;
+  background-color: #203e28;
+}
+
+.feedback {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 75px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .customersReviews {
+    padding: 40px 16px;
+  }
+  .reviewHeading {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .review {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .reviewGivenBy {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .customerFeedback {
+    padding: 40px 16px;
+  }
+  .feedback {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+}

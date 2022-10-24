@@ -1,0 +1,59 @@
+.freeAssessmentSection {
+  padding: 64px 235px;
+  background-color: #203e28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assessmentHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  color: #e2f2a8;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.assessmentDescription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.assessmentLinks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .freeAssessmentSection {
+    padding: 32px 16px;
+  }
+  .assessmentHeading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .assessmentDescription {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .assessmentLinks {
+    margin-top: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .assessmentLinks button {
+    width: 100%;
+  }
+}

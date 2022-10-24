@@ -1,0 +1,58 @@
+.guardSolution {
+  padding: 64px 80px;
+  background-color: #ffffff;
+}
+
+.guardSolutionHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #5f725d;
+  margin: 0;
+}
+
+.guardSolutionCards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 75px;
+  margin-top: 40px;
+}
+
+.guardCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guardCardHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #203e28;
+  margin: 16px 0px 0px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .guardSolution {
+    padding: 40px 16px;
+  }
+  .guardSolutionHeading {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .guardSolutionCards {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+}

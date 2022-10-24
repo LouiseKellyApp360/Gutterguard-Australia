@@ -1,0 +1,41 @@
+.servicesSections {
+  padding: 64px 250px;
+  background-color: #e8ede5 !important;
+}
+
+.serviceHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #203e28;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.serviceDescription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2d2926;
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .servicesSections {
+    padding: 40px 16px;
+  }
+  .serviceHeading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .serviceDescription {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,28 @@
+.customButton {
+  background-color: #e2f2a8 !important;
+  color: #203e28 !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 32px !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+  padding: 8px 22px !important;
+  text-transform: none !important;
+  max-width: 604px !important;
+}
+
+.customButton:hover {
+  background-color: #f4ffca !important;
+  box-shadow: none !important;
+}
+
+.customButton:disabled,
+.customButton[disabled] {
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+  pointer-events: unset !important;
+  cursor: not-allowed !important;
+}

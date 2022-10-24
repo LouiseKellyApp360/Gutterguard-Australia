@@ -1,0 +1,65 @@
+.resourceListingSection {
+  padding: 64px 200px;
+  background-color: #ffffff !important;
+}
+
+.servicesCardNews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 48px 75px !important;
+  margin-top: 40px;
+}
+
+.serviceCard {
+  max-width: 264px;
+}
+
+.serviceCard img {
+  width: 264px;
+  height: 178px;
+  object-fit: cover;
+}
+
+.serviceCardHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203e28;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.serviceCardLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #203e28;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .resourceListingSection {
+    padding: 40px 16px;
+  }
+  .servicesCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .serviceCard {
+    max-width: 394px;
+  }
+  .serviceCard img {
+    width: 100%;
+    max-width: 394px;
+    height: auto;
+  }
+}

@@ -1,0 +1,58 @@
+.mainGallerySlider {
+  padding: 64px 80px;
+}
+
+.galleryHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #203e28;
+  margin: 0;
+}
+
+.slider1Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #203e28;
+  margin: 24px 0px;
+}
+
+.slider2Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #203e28;
+  margin: 48px 0px 24px;
+}
+
+.sliderImage {
+  height: 400px !important;
+  width: 375px !important;
+  object-fit: cover !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .mainGallerySlider {
+    padding: 40px 16px;
+  }
+  .slider1Text {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0px;
+  }
+  .slider2Text {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 24px 0px 16px;
+  }
+}

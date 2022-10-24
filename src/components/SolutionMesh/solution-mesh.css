@@ -1,0 +1,197 @@
+.solMeshSection {
+  padding: 64px 110px;
+}
+
+.solMeshHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #5f725d;
+  margin: 0px 0px 16px;
+}
+
+.solMeshPara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #2d2926;
+  margin: 0;
+}
+
+.solMeshCard1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 64px;
+}
+
+.solMeshCard2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 64px;
+}
+
+.aluMesh {
+  width: 540px;
+  height: 540px;
+  object-fit: cover;
+}
+
+.aluMeshContent h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #203e28;
+  margin: 0px 0px 16px;
+}
+
+.aluMeshContent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+  margin: 0px;
+}
+
+.aluMeshContent ul {
+  margin: 16px 0px 24px;
+}
+
+.aluMeshContent ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+}
+
+.aluMeshIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.meshIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meshIcon p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  text-align: center;
+  color: #203e28;
+  margin-top: 16px !important;
+}
+
+.emberMeshContent h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #203e28;
+  margin: 0px 0px 16px;
+}
+
+.emberMeshContent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+  margin: 0px;
+}
+
+.emberMeshContent ul {
+  margin: 16px 0px 24px;
+}
+
+.emberMeshContent ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+}
+
+.emberMeshIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .solMeshSection {
+    padding: 32px 16px;
+  }
+  .solMeshCard1 {
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 32px;
+  }
+  .solMeshCard2 {
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    gap: 32px;
+  }
+  .aluMesh {
+    width: 100%;
+  }
+  .solMeshHeading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .solMeshPara {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .aluMeshContent h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .aluMeshIcons {
+    justify-content: center;
+  }
+  .emberMeshContent h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .meshIcon img {
+    width: 48px;
+    height: 48px;
+  }
+  .meshIcon p {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    max-width: 88px !important;
+  }
+  .emberMeshIcons {
+    gap: 10px;
+    justify-content: center;
+  }
+}

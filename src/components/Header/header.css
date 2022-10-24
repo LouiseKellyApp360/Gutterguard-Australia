@@ -1,0 +1,187 @@
+.topBanner {
+  width: 100%;
+  height: 40px;
+  background-color: #2d2926;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.headerContainer {
+  /* width: 100%; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.headerLinks {
+  display: flex;
+  align-items: center;
+}
+
+.headerLinks p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #203e28;
+  margin-right: 40px;
+  white-space: nowrap;
+}
+
+.phoneIcon {
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.customLink {
+  text-decoration: none !important;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.leftMenu {
+  display: flex;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 38px;
+}
+
+.navLinks .navLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #203e28;
+  text-decoration: none;
+}
+
+.navLinkActive {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #203e28;
+  text-decoration: none;
+  border-bottom: 2px solid #e2f2a8;
+}
+
+.navLink:after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 2px solid #e2f2a8;
+  margin: 0 auto;
+  transition: all 0.3s linear 0s;
+}
+
+.navLinksMob {
+  display: none;
+}
+
+.navLink:hover:after {
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .topBanner {
+    height: 32px;
+  }
+  .headerContainer {
+    padding: 14px 16px;
+    height: 54px;
+  }
+  .headerContainer .mainLogo {
+    width: 88px;
+    height: 40px;
+  }
+  .customButton {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    padding: 8px 12px !important;
+    text-transform: none !important;
+  }
+  .headerLinks p {
+    display: none;
+  }
+  .phoneIcon {
+    display: block;
+    margin-right: 24px;
+  }
+  .menuIcon {
+    width: 24px !important;
+    display: block;
+    margin-right: 12px;
+    transform: rotate(0deg);
+    transition-timing-function: ease-in;
+    transition: all 0.2s;
+  }
+  .navLinks {
+    display: none;
+  }
+  .navLinksMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+    background-color: #e8ede5;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 114px;
+    left: 0px;
+    padding: 40px 65px;
+    z-index: 10;
+    transition-timing-function: ease-in-out;
+    transition: all 1s;
+  }
+  .navLinkM {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #203e28;
+    text-decoration: none;
+    max-width: 100px;
+  }
+  .navLinkActiveM {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #203e28;
+    text-decoration: none;
+    border-bottom: 2px solid #e2f2a8;
+    max-width: 100px;
+  }
+}

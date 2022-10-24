@@ -1,0 +1,84 @@
+.leadersProtection {
+  background-color: #ffffff;
+  padding: 64px 80px;
+}
+
+.leadersProtectionHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #5f725d;
+  margin: 0;
+}
+
+.leaderCards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 75px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.leaderCard {
+  max-width: 264px;
+  width: 100%;
+}
+
+.hzLine {
+  margin-top: 16px;
+  margin-bottom: 0;
+  border: 1px solid #e8ede5;
+}
+
+.protectionCardHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203e28;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.protectionCardDescription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+}
+
+.protectionCardLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2926;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .leadersProtection {
+    padding: 40px 16px;
+  }
+  .leadersProtectionHeading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .leaderCards {
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 32px;
+  }
+  .leaderCard {
+    max-width: 400px !important;
+  }
+}
