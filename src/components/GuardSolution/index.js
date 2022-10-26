@@ -2,7 +2,7 @@ import GuardSolutionCard from "./GuardSolutionCard";
 
 import CorCorrugatedRoof from "../../assets/corrugated-roof.png";
 import TileRoof from "../../assets/tile-roof.png";
-import FlatRoofDeck from "../../assets/flat-roof-deck.png";
+import FlatRoofDeck from "../../assets/flat-roof-trim-deck.jpeg";
 import FlatRoofKliplok from "../../assets/flat-roof-kliplok.png";
 
 import "./guard-solutions.css";
