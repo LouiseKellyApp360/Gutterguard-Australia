@@ -15,7 +15,7 @@ const EmailSent = () => {
         <img src={FormImage} alt="Main Hero" />
         <div className="formContent">
           <h4 className="formHeading">
-            Thank you {firstName} {lastName} for interesting in Gutterguard
+            Thank you {firstName} {lastName} for your interesting in Gutterguard
             Australia.
           </h4>
           <p className="addressText">

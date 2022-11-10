@@ -18,10 +18,12 @@ import TermsConditions from "./pages/TermsConditions";
 
 import "./App.css";
 import Solutions from "./pages/Solutions";
+import Landingpage from "./landingpage/landingpage";
 
 function App() {
   return (
     <Routes>
+            {console.log("hi")}
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="news" element={<News />} />
